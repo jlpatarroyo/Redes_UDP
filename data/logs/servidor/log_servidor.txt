@@ -1,0 +1,6 @@
+
+2019/10/08 23:13:53 Se comenzara el servicio para 3 conexiones
+2019/10/08 23:13:57 Se agregó una conexión a la espera
+2019/10/08 23:13:57 Esperando 2+ conexiones
+2019/10/08 23:13:57 Se agregó una conexión a la espera
+2019/10/08 23:13:57 Esperando 1+ conexiones
