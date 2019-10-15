@@ -20,6 +20,7 @@ public class Logger {
         {
         	FileWriter writer = new FileWriter(myfile, true);
             writer.write("\n" + dtf.format(now) +  " " + mensaje);
+            System.out.println("\n" + dtf.format(now) +  " " + mensaje);
             writer.close();
         }
         catch (Exception e) {

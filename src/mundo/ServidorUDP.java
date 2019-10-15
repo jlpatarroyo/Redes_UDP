@@ -1,6 +1,7 @@
 package mundo;
 
 import java.io.IOException;
+import java.lang.Thread.State;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -55,7 +56,7 @@ public class ServidorUDP
 		}
 	}
 
-	public void escuchar()
+	public synchronized void escuchar()
 	{
 		corriendo = true;
 		try
@@ -68,9 +69,10 @@ public class ServidorUDP
 				if(contadorConexiones < numeroConexiones)
 				{
 					Socket socketCliente = socketServidor.accept();
-					contadorConexiones++;
-					ServidorUDPThread thread = new ServidorUDPThread(socketCliente);
+					String nombreCliente = "Cliente " + (contadorConexiones+1);
+					ServidorUDPThread thread = new ServidorUDPThread(socketCliente, nombreCliente);
 					threads[contadorConexiones] = thread;
+					contadorConexiones++;
 					logger.log("Se agregó una conexión a la espera", RUTA_LOG_SERVIDOR);
 					logger.log("Esperando " + (numeroConexiones-contadorConexiones) + "+ conexiones", RUTA_LOG_SERVIDOR);
 				}
@@ -78,16 +80,20 @@ public class ServidorUDP
 				else
 				{
 					for (int i = 0; i < threads.length; i++) {
-						threads[i].start();
-						logger.log("Se desplegó el servidor #" + i, RUTA_LOG_SERVIDOR);
+						if(Thread.currentThread().getState() == State.NEW)
+						{
+							threads[i].start();
+							logger.log("Se desplegó el servidor #" + i, RUTA_LOG_SERVIDOR);
+						}
 					}
 				}
-				
+
 			}
 		}
 		catch (Exception e) 
 		{
 			System.out.println("ERROR: No se pudo crear el servidor");
+			e.printStackTrace();
 		}
 	}
 }
