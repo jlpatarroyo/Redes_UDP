@@ -11,10 +11,11 @@ import java.net.UnknownHostException;
 public class ClienteUDP extends Thread
 {
 	private static final String SALUDO = "Hola";
-	
+	private static final String NOMBRE_CLIENTE = "NombreCliente:";
 	
 	private Socket socketCliente;
 	private Logger logger;
+	private String nombreCliente;
 
 	private static final String RUTA_LOG_CLIENTE = "./data/logs/cliente/log_cliente.txt";
 
@@ -24,19 +25,25 @@ public class ClienteUDP extends Thread
 		try 
 		{
 			socketCliente = new Socket(InetAddress.getByName(ip), puerto);
+			
 		} 
 		catch (UnknownHostException e) 
 		{
 			// TODO Auto-generated catch block
-			logger.log("No fue posible establecer la conexión con el servidor", RUTA_LOG_CLIENTE);
+			log("No fue posible establecer la conexion con el servidor");
 			e.printStackTrace();
 		} 
 		catch (IOException e) 
 		{
 			// TODO Auto-generated catch block
-			logger.log("Error al crear el socket de conexión", RUTA_LOG_CLIENTE);
+			log("Error al crear el socket de conexión");
 			e.printStackTrace();
 		}
+	}
+	
+	private void log(String mensaje)
+	{
+		logger.log(mensaje, RUTA_LOG_CLIENTE);
 	}
 
 	@Override
@@ -46,7 +53,20 @@ public class ClienteUDP extends Thread
 		{
 			PrintWriter out = new PrintWriter(socketCliente.getOutputStream(), true);
 			BufferedReader in = new BufferedReader(new InputStreamReader(socketCliente.getInputStream()));
-			out.println(SALUDO);
+			boolean corriendo = true;
+			while(corriendo)
+			{
+				String data = in.readLine();
+				if(data != null)
+				{
+					if(data.contains(NOMBRE_CLIENTE))
+					{
+						nombreCliente = data.split(":")[1];
+						log("Estado de la conexión exitoso\n");
+						log("Nombre asignado por el servidor: " + nombreCliente);
+					}
+				}
+			}
 			
 		}
 		catch (Exception e) {

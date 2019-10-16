@@ -13,7 +13,7 @@ public class MainCliente{
 		for(int i=0; i < numConexiones; i++)
 		{
 			ClienteUDP cliente = new ClienteUDP(puerto, ip);
-			cliente.run();
+			cliente.start();
 		}
 	}
 

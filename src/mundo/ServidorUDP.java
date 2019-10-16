@@ -45,7 +45,7 @@ public class ServidorUDP
 		catch (UnknownHostException e) 
 		{
 			// TODO Auto-generated catch block
-			logger.log("La dirección IP es incorrecta", RUTA_LOG_SERVIDOR);
+			logger.log("La direccion IP es incorrecta", RUTA_LOG_SERVIDOR);
 			e.printStackTrace();
 		} 
 		catch (IOException e) 
@@ -56,7 +56,7 @@ public class ServidorUDP
 		}
 	}
 
-	public synchronized void escuchar()
+	public void escuchar()
 	{
 		corriendo = true;
 		try
@@ -64,10 +64,10 @@ public class ServidorUDP
 			contadorConexiones = 0;
 			while(corriendo)
 			{
-				System.out.println("INFO: Esperando conexion de cliente...");
 				//Se esperan las n conexiones
 				if(contadorConexiones < numeroConexiones)
 				{
+					System.out.println("INFO: Esperando conexion de cliente...");
 					Socket socketCliente = socketServidor.accept();
 					String nombreCliente = "Cliente " + (contadorConexiones+1);
 					ServidorUDPThread thread = new ServidorUDPThread(socketCliente, nombreCliente);
@@ -80,10 +80,11 @@ public class ServidorUDP
 				else
 				{
 					for (int i = 0; i < threads.length; i++) {
-						if(Thread.currentThread().getState() == State.NEW)
-						{
-							threads[i].start();
-							logger.log("Se desplegó el servidor #" + i, RUTA_LOG_SERVIDOR);
+						synchronized (this) {
+							if(threads[i].getState() == State.NEW)
+							{
+								threads[i].start();
+							}
 						}
 					}
 				}

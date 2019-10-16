@@ -1,0 +1,25 @@
+
+2019/10/15 19:09:06 Error al crear el socket de conexión
+2019/10/15 19:09:48 Error al crear el socket de conexión
+2019/10/15 19:11:02 Error al crear el socket de conexión
+2019/10/15 19:29:06 Estado de la conexión exitoso
+
+2019/10/15 19:29:06 Estado de la conexión exitoso
+
+2019/10/15 19:29:06 Estado de la conexión exitoso
+
+2019/10/15 19:29:06 Nombre asignado por el servidor: Cliente 2
+2019/10/15 19:29:06 Nombre asignado por el servidor: Cliente 1
+2019/10/15 19:29:06 Nombre asignado por el servidor: Cliente 3
+2019/10/15 19:39:36 Error al crear el socket de conexión
+2019/10/15 19:39:38 Error al crear el socket de conexión
+2019/10/15 19:39:40 Error al crear el socket de conexión
+2019/10/15 19:39:47 Estado de la conexión exitoso
+
+2019/10/15 19:39:47 Estado de la conexión exitoso
+
+2019/10/15 19:39:47 Estado de la conexión exitoso
+
+2019/10/15 19:39:47 Nombre asignado por el servidor: Cliente 2
+2019/10/15 19:39:47 Nombre asignado por el servidor: Cliente 1
+2019/10/15 19:39:47 Nombre asignado por el servidor: Cliente 3
