@@ -1,28 +1,55 @@
 
-2019/10/15 20:03:20 Estado de la conexión exitoso
-
-2019/10/15 20:03:20 Estado de la conexión exitoso
-
-2019/10/15 20:03:20 Estado de la conexión exitoso
-
-2019/10/15 20:03:20 Nombre asignado por el servidor: Cliente 3
-2019/10/15 20:03:20 Nombre asignado por el servidor: Cliente 2
-2019/10/15 20:03:20 Nombre asignado por el servidor: Cliente 1
-2019/10/15 20:06:21 Estado de la conexión exitoso
-
-2019/10/15 20:06:21 Estado de la conexión exitoso
-
-2019/10/15 20:06:21 Estado de la conexión exitoso
-
-2019/10/15 20:06:21 Nombre asignado por el servidor: Cliente 3
-2019/10/15 20:06:21 Nombre asignado por el servidor: Cliente 1
-2019/10/15 20:06:21 Nombre asignado por el servidor: Cliente 2
-2019/10/15 20:08:52 Estado de la conexión exitoso
-
-2019/10/15 20:08:52 Estado de la conexión exitoso
-
-2019/10/15 20:08:52 Estado de la conexión exitoso
-
-2019/10/15 20:08:52 Nombre asignado por el servidor: Cliente 1
-2019/10/15 20:08:52 Nombre asignado por el servidor: Cliente 3
-2019/10/15 20:08:52 Nombre asignado por el servidor: Cliente 2
+2019/10/15 21:08:30 Estado de la conexión exitoso
+2019/10/15 21:08:30 Estado de la conexión exitoso
+2019/10/15 21:08:30 Estado de la conexión exitoso
+2019/10/15 21:08:30 Nombre asignado por el servidor: Cliente 3
+2019/10/15 21:08:30 Nombre asignado por el servidor: Cliente 1
+2019/10/15 21:08:30 Nombre asignado por el servidor: Cliente 2
+2019/10/15 21:08:30 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 1.txt
+2019/10/15 21:08:30 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 3.txt
+2019/10/15 21:08:30 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 2.txt
+2019/10/15 21:17:22 Estado de la conexión exitoso
+2019/10/15 21:17:22 Estado de la conexión exitoso
+2019/10/15 21:17:22 Estado de la conexión exitoso
+2019/10/15 21:17:22 Nombre asignado por el servidor: Cliente 1
+2019/10/15 21:17:22 Nombre asignado por el servidor: Cliente 3
+2019/10/15 21:17:22 Nombre asignado por el servidor: Cliente 2
+2019/10/15 21:17:22 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 1.txt
+2019/10/15 21:17:22 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 2.txt
+2019/10/15 21:17:22 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 3.txt
+2019/10/15 21:19:01 Estado de la conexión exitoso
+2019/10/15 21:19:01 Estado de la conexión exitoso
+2019/10/15 21:19:01 Estado de la conexión exitoso
+2019/10/15 21:19:01 Nombre asignado por el servidor: Cliente 1
+2019/10/15 21:19:01 Nombre asignado por el servidor: Cliente 3
+2019/10/15 21:19:01 Nombre asignado por el servidor: Cliente 2
+2019/10/15 21:19:01 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 3.txt
+2019/10/15 21:19:01 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 1.txt
+2019/10/15 21:19:01 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 2.txt
+2019/10/15 21:20:02 Estado de la conexión exitoso
+2019/10/15 21:20:02 Estado de la conexión exitoso
+2019/10/15 21:20:02 Estado de la conexión exitoso
+2019/10/15 21:20:02 Nombre asignado por el servidor: Cliente 2
+2019/10/15 21:20:02 Nombre asignado por el servidor: Cliente 1
+2019/10/15 21:20:02 Nombre asignado por el servidor: Cliente 3
+2019/10/15 21:20:02 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 1.txt
+2019/10/15 21:20:02 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 2.txt
+2019/10/15 21:20:02 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 3.txt
+2019/10/15 21:21:42 Estado de la conexión exitoso
+2019/10/15 21:21:42 Estado de la conexión exitoso
+2019/10/15 21:21:42 Estado de la conexión exitoso
+2019/10/15 21:21:42 Nombre asignado por el servidor: Cliente 2
+2019/10/15 21:21:42 Nombre asignado por el servidor: Cliente 1
+2019/10/15 21:21:42 Nombre asignado por el servidor: Cliente 3
+2019/10/15 21:21:42 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 2.txt
+2019/10/15 21:21:42 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 3.txt
+2019/10/15 21:21:42 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 1.txt
+2019/10/15 21:23:31 Estado de la conexión exitoso
+2019/10/15 21:23:31 Estado de la conexión exitoso
+2019/10/15 21:23:31 Estado de la conexión exitoso
+2019/10/15 21:23:31 Nombre asignado por el servidor: Cliente 1
+2019/10/15 21:23:31 Nombre asignado por el servidor: Cliente 2
+2019/10/15 21:23:31 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 1.txt
+2019/10/15 21:23:31 Nombre asignado por el servidor: Cliente 3
+2019/10/15 21:23:31 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 2.txt
+2019/10/15 21:23:31 La ruta final del archivo es = C:\Users\viejo\Documents\Universidad\Redes\RepoArchivos\Descargado_Cliente 3.txt

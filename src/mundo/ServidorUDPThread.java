@@ -20,9 +20,12 @@ public class ServidorUDPThread extends Thread
 	private static final String TAMANIO_BLOQUE = "TamanioBloque:4096";
 	private static final int BLOQUE = 4096;
 	private static final String TAMANIO_ARCHIVO = "TamanioArchivo:";
+	private static final String CHECKSUM = "Checksum:";
+	private static final String CORRECTO = "Correcto:";
+	private static final String INCORRECTO = "Incorrecto:";
 
 	private static final String RUTA_LOG_SERVIDOR = "./data/logs/servidor/log_servidor.txt";
-	private static final String RUTA_ARCHIVO = "./data/archivos/sample.txt";
+	private static final String RUTA_ARCHIVO = "C:\\Users\\viejo\\Documents\\Universidad\\Redes\\RepoArchivos\\100MB_Sample.txt";
 	
 	private Socket socketCliente;
 	private String nombreCliente;
@@ -50,7 +53,7 @@ public class ServidorUDPThread extends Thread
 			PrintWriter out = new PrintWriter(socketCliente.getOutputStream(), true);
 			BufferedReader in = new BufferedReader(new InputStreamReader(socketCliente.getInputStream()));
 			boolean corriendo = true;
-			long tInicial = 0;
+			long tInicial = System.currentTimeMillis();
 			long tFinal = 0;
 			//Se envía la notificación de conexión exitosa
 			out.println(NOMBRE_CLIENTE + nombreCliente);
@@ -67,6 +70,24 @@ public class ServidorUDPThread extends Thread
 						int tamanioArchivo = (int) archivo.length();
 						out.println(TAMANIO_ARCHIVO + tamanioArchivo);
 						enviarArchivo(archivo);
+						sleep(1000);
+						out.println(CHECKSUM + checkSum(RUTA_ARCHIVO));
+					}
+					if(data.contains(CORRECTO))
+					{
+						tFinal = Long.parseLong(data.split(":")[1]);
+						double deltaT = (tFinal - tInicial)/1000;
+						log("El archivo fue descargado correctamente");
+						log("Tiempo de transferencia= " + deltaT);
+						corriendo = false;
+					}
+					if(data.contains(INCORRECTO))
+					{
+						tFinal = Long.parseLong(data.split(":")[1]);
+						double deltaT = (tFinal - tInicial)/1000;
+						log("El archivo fue descargado incorrectamente");
+						log("Tiempo de transferencia= " + deltaT + "s");
+						corriendo = false;
 					}
 				}
 			}
