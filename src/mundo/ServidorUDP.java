@@ -22,6 +22,7 @@ public class ServidorUDP
 	public ServidorUDP(int numeroConexiones, int puerto, String direccionIP)
 	{
 		logger = new Logger();
+		logger.log("\n-------------------------------------------------------", RUTA_LOG_SERVIDOR);
 		contadorConexiones = 0;
 		if(numeroConexiones > NUM_MAX_CONEXIONES)
 		{

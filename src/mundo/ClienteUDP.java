@@ -23,7 +23,7 @@ public class ClienteUDP extends Thread
 	private static final String CHECKSUM = "Checksum:";
 	private static final String CORRECTO = "Correcto:";
 	private static final String INCORRECTO = "Incorrecto:";
-	private static final long TIEMPO_MAXIMO_DESCARGA = 20000;
+	private static final long TIEMPO_MAXIMO_DESCARGA = 60000;
 
 	private Socket socketCliente;
 	private Logger logger;
@@ -136,6 +136,7 @@ public class ClienteUDP extends Thread
 			totalLeido += leer;
 			remaining -= leer;
 			//System.out.println("read " + totalLeido + " bytes.");
+			System.out.println("Restante: " + remaining);
 			fos.write(buffer, 0, leer);
 			if(cronoActual-cronoInicio > TIEMPO_MAXIMO_DESCARGA)
 			{
@@ -156,7 +157,7 @@ public class ClienteUDP extends Thread
 		//dis.close();
 	}
 
-	private synchronized String checkSum(String path)
+	private String checkSum(String path)
 	{
 		String checksum = null;
 		try {
