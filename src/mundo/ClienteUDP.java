@@ -23,7 +23,7 @@ public class ClienteUDP extends Thread
 	private static final String CHECKSUM = "Checksum:";
 	private static final String CORRECTO = "Correcto:";
 	private static final String INCORRECTO = "Incorrecto:";
-	private static final long TIEMPO_MAXIMO_DESCARGA = 60000;
+	private static final long TIEMPO_MAXIMO_DESCARGA = 120000;
 
 	private Socket socketCliente;
 	private Logger logger;
@@ -31,12 +31,14 @@ public class ClienteUDP extends Thread
 	private int tamanioBloque;
 	private int tamanioArchivo;
 	private String miRutaFinal;
+	private String tipoArchivo;
 
 	private static final String RUTA_LOG_CLIENTE = "./data/logs/cliente/log_cliente.txt";
 	private static final String RUTA_FINAL_ARCHIVO = "C:\\Users\\viejo\\Documents\\Universidad\\Redes\\RepoArchivos\\Descargado";
 
-	public ClienteUDP(int puerto, String ip)
+	public ClienteUDP(int puerto, String ip, String tipoArchivo)
 	{
+		this.tipoArchivo = tipoArchivo;
 		logger = new Logger();
 		try 
 		{
@@ -79,7 +81,7 @@ public class ClienteUDP extends Thread
 					if(data.contains(NOMBRE_CLIENTE))
 					{
 						nombreCliente = data.split(":")[1];
-						miRutaFinal = RUTA_FINAL_ARCHIVO + "_" + nombreCliente + ".txt";
+						miRutaFinal = RUTA_FINAL_ARCHIVO + "_" + nombreCliente + "." + tipoArchivo;
 						log("Estado de la conexión exitoso");
 						log("Nombre asignado por el servidor: " + nombreCliente);
 						log("La ruta final del archivo es = " + miRutaFinal);

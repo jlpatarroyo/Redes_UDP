@@ -9,18 +9,48 @@ import java.net.UnknownHostException;
 
 public class ServidorUDP
 {
+	public static final String RUTA_ARCHIVO_PEQUEÑO = "C:\\Users\\viejo\\Documents\\Universidad\\Redes\\RepoArchivos\\SampleText.txt";
+	public static final String RUTA_ARCHIVO_GRANDE = "C:\\Users\\viejo\\Documents\\Universidad\\Redes\\RepoArchivos\\100MB_Sample.txt";
+	public static final String RUTA_VIDEO = "C:\\Users\\viejo\\Documents\\Videos\\SUTRA\\Sebastían Yatra - SUTRA ft. Dalmata JIIRO (Cover).mp4";
+
 	private boolean corriendo;
 	private int numeroConexiones;
 	private Logger logger;
 	private ServerSocket socketServidor;
 	private int contadorConexiones;
 	private ServidorUDPThread[] threads;
+	private TipoArchivo tipoArchivo;
+	
+	private static final String GRANDE = "g";
+	private static final String PEQUEÑO = "p";
+	private static final String VIDEO = "v";
+
+	public enum TipoArchivo
+	{
+		PEQUENIO,
+		GRANDE,
+		VIDEO
+	}
 
 	private static final int NUM_MAX_CONEXIONES = 25;
-	private static final String RUTA_LOG_SERVIDOR = "./data/logs/servidor/log_servidor.txt";
+	public static final String RUTA_LOG_SERVIDOR = "./data/logs/servidor/log_servidor.txt";
 
-	public ServidorUDP(int numeroConexiones, int puerto, String direccionIP)
+
+	public ServidorUDP(int numeroConexiones, int puerto, String direccionIP, String tipoArchivo)
 	{
+		if(tipoArchivo.equals(GRANDE))
+		{
+			this.tipoArchivo = TipoArchivo.GRANDE;
+		}
+		else if(tipoArchivo.equals(VIDEO))
+		{
+			this.tipoArchivo = TipoArchivo.VIDEO;
+		}
+		else
+		{
+			this.tipoArchivo = TipoArchivo.PEQUENIO;
+		}
+		
 		logger = new Logger();
 		logger.log("\n-------------------------------------------------------", RUTA_LOG_SERVIDOR);
 		contadorConexiones = 0;
@@ -71,11 +101,26 @@ public class ServidorUDP
 					System.out.println("INFO: Esperando conexion de cliente...");
 					Socket socketCliente = socketServidor.accept();
 					String nombreCliente = "Cliente " + (contadorConexiones+1);
-					ServidorUDPThread thread = new ServidorUDPThread(socketCliente, nombreCliente);
-					threads[contadorConexiones] = thread;
-					contadorConexiones++;
-//					logger.log("Se agregó una conexión a la espera", RUTA_LOG_SERVIDOR);
-//					logger.log("Esperando " + (numeroConexiones-contadorConexiones) + "+ conexiones", RUTA_LOG_SERVIDOR);
+					if(tipoArchivo == TipoArchivo.GRANDE)
+					{
+						ServidorUDPThread thread = new ServidorUDPThread(socketCliente, nombreCliente, RUTA_ARCHIVO_GRANDE);
+						threads[contadorConexiones] = thread;
+						contadorConexiones++;
+					}
+					else if(tipoArchivo == TipoArchivo.VIDEO)
+					{
+						ServidorUDPThread thread = new ServidorUDPThread(socketCliente, nombreCliente, RUTA_VIDEO);
+						threads[contadorConexiones] = thread;
+						contadorConexiones++;
+					}
+					else
+					{
+						ServidorUDPThread thread = new ServidorUDPThread(socketCliente, nombreCliente, RUTA_ARCHIVO_PEQUEÑO);
+						threads[contadorConexiones] = thread;
+						contadorConexiones++;
+					}
+					//					logger.log("Se agregó una conexión a la espera", RUTA_LOG_SERVIDOR);
+					//					logger.log("Esperando " + (numeroConexiones-contadorConexiones) + "+ conexiones", RUTA_LOG_SERVIDOR);
 				}
 				//ya se llenaron las conexiones
 				else

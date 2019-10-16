@@ -24,26 +24,27 @@ public class ServidorUDPThread extends Thread
 	private static final String CORRECTO = "Correcto:";
 	private static final String INCORRECTO = "Incorrecto:";
 
-	private static final String RUTA_LOG_SERVIDOR = "./data/logs/servidor/log_servidor.txt";
-	private static final String RUTA_ARCHIVO = "C:\\Users\\viejo\\Documents\\Universidad\\Redes\\RepoArchivos\\100MB_Sample.txt";
 	
+
 	private Socket socketCliente;
 	private String nombreCliente;
 	private Logger logger;
 	private File archivo;
+	private String rutaArchivo;
 
-	public ServidorUDPThread(Socket socketCliente, String nombreCliente)
+	public ServidorUDPThread(Socket socketCliente, String nombreCliente, String rutaArchivo)
 	{
+		this.rutaArchivo = rutaArchivo;
 		this.socketCliente = socketCliente;
 		this.nombreCliente = nombreCliente;
 		this.logger = new Logger();
-		archivo = new File(RUTA_ARCHIVO);
+		archivo = new File(rutaArchivo);
 		log("Se desplego el servidor para: " + nombreCliente);
 	}
 
 	private void log(String mensaje)
 	{
-		logger.log(nombreCliente + ": " + mensaje, RUTA_LOG_SERVIDOR);
+		logger.log(nombreCliente + ": " + mensaje, ServidorUDP.RUTA_LOG_SERVIDOR);
 	}
 
 	@Override
@@ -71,7 +72,7 @@ public class ServidorUDPThread extends Thread
 						out.println(TAMANIO_ARCHIVO + tamanioArchivo);
 						enviarArchivo(archivo);
 						sleep(1000);
-						out.println(CHECKSUM + checkSum(RUTA_ARCHIVO));
+						out.println(CHECKSUM + checkSum(rutaArchivo));
 					}
 					if(data.contains(CORRECTO))
 					{
@@ -96,7 +97,7 @@ public class ServidorUDPThread extends Thread
 			// TODO: handle exception
 		}
 	}
-	
+
 	private synchronized long enviarArchivo(File archivo) throws IOException
 	{
 		long tInicial = System.currentTimeMillis();
@@ -111,7 +112,7 @@ public class ServidorUDPThread extends Thread
 		return tInicial;
 		//dos.close();	
 	}
-	
+
 	private synchronized String checkSum(String path)
 	{
 		String checksum = null;

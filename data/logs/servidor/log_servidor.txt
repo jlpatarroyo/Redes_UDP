@@ -1,85 +1,394 @@
 
-2019/10/15 21:08:27 Se comenzara el servicio para 3 conexiones
-2019/10/15 21:08:29 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 21:08:29 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 21:08:30 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 21:08:30 Cliente 1: El cliente se encuentra preparado
-2019/10/15 21:08:30 Cliente 1: El tamanio del bloque es: 4096
-2019/10/15 21:08:30 Cliente 3: El cliente se encuentra preparado
-2019/10/15 21:08:30 Cliente 3: El tamanio del bloque es: 4096
-2019/10/15 21:08:30 Cliente 2: El cliente se encuentra preparado
-2019/10/15 21:08:30 Cliente 2: El tamanio del bloque es: 4096
-2019/10/15 21:08:35 Cliente 1: El archivo fue descargado correctamente
-2019/10/15 21:08:35 Cliente 1: Tiempo de transferencia= 3.0
-2019/10/15 21:08:46 Cliente 3: El archivo fue descargado correctamente
-2019/10/15 21:08:46 Cliente 3: Tiempo de transferencia= 15.0
-2019/10/15 21:17:19 Se comenzara el servicio para 3 conexiones
-2019/10/15 21:17:22 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 21:17:22 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 21:17:22 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 21:17:22 Cliente 1: El cliente se encuentra preparado
-2019/10/15 21:17:22 Cliente 1: El tamanio del bloque es: 4096
-2019/10/15 21:17:22 Cliente 2: El cliente se encuentra preparado
-2019/10/15 21:17:22 Cliente 2: El tamanio del bloque es: 4096
-2019/10/15 21:17:22 Cliente 3: El cliente se encuentra preparado
-2019/10/15 21:17:22 Cliente 3: El tamanio del bloque es: 4096
-2019/10/15 21:17:29 Cliente 1: El archivo fue descargado correctamente
-2019/10/15 21:17:29 Cliente 1: Tiempo de transferencia= 3.0
-2019/10/15 21:17:33 Cliente 3: El archivo fue descargado correctamente
-2019/10/15 21:17:33 Cliente 3: Tiempo de transferencia= 9.0
-2019/10/15 21:18:58 Se comenzara el servicio para 3 conexiones
-2019/10/15 21:19:00 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 21:19:00 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 21:19:01 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 21:19:01 Cliente 3: El cliente se encuentra preparado
-2019/10/15 21:19:01 Cliente 1: El cliente se encuentra preparado
-2019/10/15 21:19:01 Cliente 2: El cliente se encuentra preparado
-2019/10/15 21:19:01 Cliente 1: El tamanio del bloque es: 4096
-2019/10/15 21:19:01 Cliente 3: El tamanio del bloque es: 4096
-2019/10/15 21:19:01 Cliente 2: El tamanio del bloque es: 4096
-2019/10/15 21:19:08 Cliente 2: El archivo fue descargado correctamente
-2019/10/15 21:19:08 Cliente 2: Tiempo de transferencia= 6.0
-2019/10/15 21:19:10 Cliente 3: El archivo fue descargado correctamente
-2019/10/15 21:19:10 Cliente 3: Tiempo de transferencia= 8.0
-2019/10/15 21:19:10 Cliente 1: El archivo fue descargado correctamente
-2019/10/15 21:19:10 Cliente 1: Tiempo de transferencia= 8.0
-2019/10/15 21:19:59 Se comenzara el servicio para 3 conexiones
-2019/10/15 21:20:01 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 21:20:01 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 21:20:02 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 21:20:02 Cliente 1: El cliente se encuentra preparado
-2019/10/15 21:20:02 Cliente 2: El cliente se encuentra preparado
-2019/10/15 21:20:02 Cliente 1: El tamanio del bloque es: 4096
-2019/10/15 21:20:02 Cliente 2: El tamanio del bloque es: 4096
-2019/10/15 21:20:02 Cliente 3: El cliente se encuentra preparado
-2019/10/15 21:20:02 Cliente 3: El tamanio del bloque es: 4096
-2019/10/15 21:20:12 Cliente 1: El archivo fue descargado correctamente
-2019/10/15 21:20:12 Cliente 1: Tiempo de transferencia= 9.0
-2019/10/15 21:21:39 Se comenzara el servicio para 3 conexiones
-2019/10/15 21:21:42 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 21:21:42 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 21:21:42 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 21:21:42 Cliente 2: El cliente se encuentra preparado
-2019/10/15 21:21:42 Cliente 3: El cliente se encuentra preparado
-2019/10/15 21:21:42 Cliente 1: El cliente se encuentra preparado
-2019/10/15 21:21:42 Cliente 2: El tamanio del bloque es: 4096
-2019/10/15 21:21:42 Cliente 1: El tamanio del bloque es: 4096
-2019/10/15 21:21:42 Cliente 3: El tamanio del bloque es: 4096
-2019/10/15 21:21:48 Cliente 2: El archivo fue descargado correctamente
-2019/10/15 21:21:48 Cliente 2: Tiempo de transferencia= 2.0
-2019/10/15 21:21:51 Cliente 3: El archivo fue descargado correctamente
-2019/10/15 21:21:51 Cliente 3: Tiempo de transferencia= 7.0
-2019/10/15 21:23:29 Se comenzara el servicio para 3 conexiones
-2019/10/15 21:23:31 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 21:23:31 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 21:23:31 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 21:23:31 Cliente 1: El cliente se encuentra preparado
-2019/10/15 21:23:31 Cliente 2: El cliente se encuentra preparado
-2019/10/15 21:23:31 Cliente 1: El tamanio del bloque es: 4096
-2019/10/15 21:23:31 Cliente 2: El tamanio del bloque es: 4096
-2019/10/15 21:23:31 Cliente 3: El cliente se encuentra preparado
-2019/10/15 21:23:31 Cliente 3: El tamanio del bloque es: 4096
-2019/10/15 21:23:37 Cliente 1: El archivo fue descargado correctamente
-2019/10/15 21:23:37 Cliente 1: Tiempo de transferencia= 3.0
-2019/10/15 21:23:40 Cliente 3: El archivo fue descargado correctamente
-2019/10/15 21:23:40 Cliente 3: Tiempo de transferencia= 8.0
+2019/10/16 11:35:06 
+-------------------------------------------------------
+2019/10/16 11:35:06 Se comenzara el servicio para 3 conexiones
+2019/10/16 11:35:09 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/16 11:35:09 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/16 11:35:09 Cliente 3: Se desplego el servidor para: Cliente 3
+2019/10/16 11:35:09 Cliente 2: El cliente se encuentra preparado
+2019/10/16 11:35:09 Cliente 3: El cliente se encuentra preparado
+2019/10/16 11:35:09 Cliente 1: El cliente se encuentra preparado
+2019/10/16 11:35:09 Cliente 1: El tamanio del bloque es: 4096
+2019/10/16 11:35:09 Cliente 3: El tamanio del bloque es: 4096
+2019/10/16 11:35:09 Cliente 2: El tamanio del bloque es: 4096
+2019/10/16 11:35:29 Cliente 1: El archivo fue descargado correctamente
+2019/10/16 11:35:29 Cliente 1: Tiempo de transferencia= 17.0
+2019/10/16 11:35:29 Cliente 2: El archivo fue descargado correctamente
+2019/10/16 11:35:29 Cliente 2: Tiempo de transferencia= 17.0
+2019/10/16 11:35:29 Cliente 3: El archivo fue descargado correctamente
+2019/10/16 11:35:29 Cliente 3: Tiempo de transferencia= 18.0
+2019/10/16 11:37:23 
+-------------------------------------------------------
+2019/10/16 11:37:23 Se comenzara el servicio para 25 conexiones
+2019/10/16 11:37:25 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/16 11:37:25 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/16 11:37:26 Cliente 3: Se desplego el servidor para: Cliente 3
+2019/10/16 11:37:26 Cliente 4: Se desplego el servidor para: Cliente 4
+2019/10/16 11:37:26 Cliente 5: Se desplego el servidor para: Cliente 5
+2019/10/16 11:37:26 Cliente 6: Se desplego el servidor para: Cliente 6
+2019/10/16 11:37:27 Cliente 7: Se desplego el servidor para: Cliente 7
+2019/10/16 11:37:27 Cliente 8: Se desplego el servidor para: Cliente 8
+2019/10/16 11:37:27 Cliente 9: Se desplego el servidor para: Cliente 9
+2019/10/16 11:37:27 Cliente 10: Se desplego el servidor para: Cliente 10
+2019/10/16 11:37:28 Cliente 11: Se desplego el servidor para: Cliente 11
+2019/10/16 11:37:28 Cliente 12: Se desplego el servidor para: Cliente 12
+2019/10/16 11:37:28 Cliente 13: Se desplego el servidor para: Cliente 13
+2019/10/16 11:37:28 Cliente 14: Se desplego el servidor para: Cliente 14
+2019/10/16 11:37:29 Cliente 15: Se desplego el servidor para: Cliente 15
+2019/10/16 11:37:29 Cliente 16: Se desplego el servidor para: Cliente 16
+2019/10/16 11:37:29 Cliente 17: Se desplego el servidor para: Cliente 17
+2019/10/16 11:37:29 Cliente 18: Se desplego el servidor para: Cliente 18
+2019/10/16 11:37:30 Cliente 19: Se desplego el servidor para: Cliente 19
+2019/10/16 11:37:30 Cliente 20: Se desplego el servidor para: Cliente 20
+2019/10/16 11:37:30 Cliente 21: Se desplego el servidor para: Cliente 21
+2019/10/16 11:37:30 Cliente 22: Se desplego el servidor para: Cliente 22
+2019/10/16 11:37:31 Cliente 23: Se desplego el servidor para: Cliente 23
+2019/10/16 11:37:31 Cliente 24: Se desplego el servidor para: Cliente 24
+2019/10/16 11:37:31 Cliente 25: Se desplego el servidor para: Cliente 25
+2019/10/16 11:37:31 Cliente 18: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 11: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 4: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 25: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 24: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 5: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 7: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 8: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 17: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 21: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 1: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 23: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 12: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 3: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 13: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 16: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 20: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 10: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 6: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 14: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 15: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 2: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 19: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 9: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 22: El cliente se encuentra preparado
+2019/10/16 11:37:31 Cliente 20: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 14: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 2: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 15: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 13: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 16: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 10: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 3: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 19: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 6: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 9: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 8: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 24: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 5: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 23: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 11: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 22: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 1: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 12: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 17: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 21: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 25: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 18: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 7: El tamanio del bloque es: 4096
+2019/10/16 11:37:31 Cliente 4: El tamanio del bloque es: 4096
+2019/10/16 12:08:09 
+-------------------------------------------------------
+2019/10/16 12:08:09 Se comenzara el servicio para 25 conexiones
+2019/10/16 12:08:12 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/16 12:08:12 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/16 12:08:12 Cliente 3: Se desplego el servidor para: Cliente 3
+2019/10/16 12:08:12 Cliente 4: Se desplego el servidor para: Cliente 4
+2019/10/16 12:08:13 Cliente 5: Se desplego el servidor para: Cliente 5
+2019/10/16 12:08:13 Cliente 6: Se desplego el servidor para: Cliente 6
+2019/10/16 12:08:14 Cliente 7: Se desplego el servidor para: Cliente 7
+2019/10/16 12:08:14 Cliente 8: Se desplego el servidor para: Cliente 8
+2019/10/16 12:08:14 Cliente 9: Se desplego el servidor para: Cliente 9
+2019/10/16 12:08:14 Cliente 10: Se desplego el servidor para: Cliente 10
+2019/10/16 12:08:15 Cliente 11: Se desplego el servidor para: Cliente 11
+2019/10/16 12:08:15 Cliente 12: Se desplego el servidor para: Cliente 12
+2019/10/16 12:08:15 Cliente 13: Se desplego el servidor para: Cliente 13
+2019/10/16 12:08:15 Cliente 14: Se desplego el servidor para: Cliente 14
+2019/10/16 12:08:16 Cliente 15: Se desplego el servidor para: Cliente 15
+2019/10/16 12:08:16 Cliente 16: Se desplego el servidor para: Cliente 16
+2019/10/16 12:08:16 Cliente 17: Se desplego el servidor para: Cliente 17
+2019/10/16 12:08:16 Cliente 18: Se desplego el servidor para: Cliente 18
+2019/10/16 12:08:17 Cliente 19: Se desplego el servidor para: Cliente 19
+2019/10/16 12:08:17 Cliente 20: Se desplego el servidor para: Cliente 20
+2019/10/16 12:08:17 Cliente 21: Se desplego el servidor para: Cliente 21
+2019/10/16 12:08:17 Cliente 22: Se desplego el servidor para: Cliente 22
+2019/10/16 12:08:18 Cliente 23: Se desplego el servidor para: Cliente 23
+2019/10/16 12:08:18 Cliente 24: Se desplego el servidor para: Cliente 24
+2019/10/16 12:08:18 Cliente 25: Se desplego el servidor para: Cliente 25
+2019/10/16 12:08:18 Cliente 6: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 18: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 13: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 16: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 25: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 20: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 12: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 24: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 22: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 15: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 23: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 19: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 11: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 17: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 5: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 10: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 7: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 2: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 9: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 14: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 1: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 21: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 3: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 4: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 8: El cliente se encuentra preparado
+2019/10/16 12:08:18 Cliente 21: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 3: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 10: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 5: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 13: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 15: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 18: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 4: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 11: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 24: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 23: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 25: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 12: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 9: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 8: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 16: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 7: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 2: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 22: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 20: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 17: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 6: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 1: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 19: El tamanio del bloque es: 4096
+2019/10/16 12:08:18 Cliente 14: El tamanio del bloque es: 4096
+2019/10/16 12:08:20 Cliente 7: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 16: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 25: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 3: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 9: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 2: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 1: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 10: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 24: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 13: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 8: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 11: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 12: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 20: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 15: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 23: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 14: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 17: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 22: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 21: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 5: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 19: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 18: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 6: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 12: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 21: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 11: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 9: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 24: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 2: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 1: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 10: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 13: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 6: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 18: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 19: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 5: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 20: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 3: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 25: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 16: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 7: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 15: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 22: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 17: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 14: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 8: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 23: Tiempo de transferencia= 0.0
+2019/10/16 12:08:20 Cliente 4: El archivo fue descargado correctamente
+2019/10/16 12:08:20 Cliente 4: Tiempo de transferencia= 0.0
+2019/10/16 12:09:12 
+-------------------------------------------------------
+2019/10/16 12:09:12 Se comenzara el servicio para 25 conexiones
+2019/10/16 12:09:14 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/16 12:09:14 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/16 12:09:15 Cliente 3: Se desplego el servidor para: Cliente 3
+2019/10/16 12:09:15 Cliente 4: Se desplego el servidor para: Cliente 4
+2019/10/16 12:09:15 Cliente 5: Se desplego el servidor para: Cliente 5
+2019/10/16 12:09:15 Cliente 6: Se desplego el servidor para: Cliente 6
+2019/10/16 12:09:16 Cliente 7: Se desplego el servidor para: Cliente 7
+2019/10/16 12:09:16 Cliente 8: Se desplego el servidor para: Cliente 8
+2019/10/16 12:09:16 Cliente 9: Se desplego el servidor para: Cliente 9
+2019/10/16 12:09:16 Cliente 10: Se desplego el servidor para: Cliente 10
+2019/10/16 12:09:17 Cliente 11: Se desplego el servidor para: Cliente 11
+2019/10/16 12:09:17 Cliente 12: Se desplego el servidor para: Cliente 12
+2019/10/16 12:09:18 Cliente 13: Se desplego el servidor para: Cliente 13
+2019/10/16 12:09:18 Cliente 14: Se desplego el servidor para: Cliente 14
+2019/10/16 12:09:18 Cliente 15: Se desplego el servidor para: Cliente 15
+2019/10/16 12:09:18 Cliente 16: Se desplego el servidor para: Cliente 16
+2019/10/16 12:09:19 Cliente 17: Se desplego el servidor para: Cliente 17
+2019/10/16 12:09:19 Cliente 18: Se desplego el servidor para: Cliente 18
+2019/10/16 12:09:19 Cliente 19: Se desplego el servidor para: Cliente 19
+2019/10/16 12:09:19 Cliente 20: Se desplego el servidor para: Cliente 20
+2019/10/16 12:09:20 Cliente 21: Se desplego el servidor para: Cliente 21
+2019/10/16 12:09:20 Cliente 22: Se desplego el servidor para: Cliente 22
+2019/10/16 12:09:20 Cliente 23: Se desplego el servidor para: Cliente 23
+2019/10/16 12:09:20 Cliente 24: Se desplego el servidor para: Cliente 24
+2019/10/16 12:09:21 Cliente 25: Se desplego el servidor para: Cliente 25
+2019/10/16 12:09:21 Cliente 10: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 6: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 1: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 13: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 25: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 15: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 19: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 9: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 4: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 25: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 1: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 19: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 10: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 6: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 9: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 13: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 15: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 16: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 4: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 12: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 16: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 18: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 12: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 8: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 5: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 7: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 18: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 22: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 11: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 24: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 8: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 7: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 5: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 14: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 2: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 24: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 22: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 11: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 17: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 17: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 14: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 21: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 21: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 23: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 23: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 3: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 20: El cliente se encuentra preparado
+2019/10/16 12:09:21 Cliente 3: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 20: El tamanio del bloque es: 4096
+2019/10/16 12:09:21 Cliente 2: El tamanio del bloque es: 4096
+2019/10/16 12:09:22 Cliente 25: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 6: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 1: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 10: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 15: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 1: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 6: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 25: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 10: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 13: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 9: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 15: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 19: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 4: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 13: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 9: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 4: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 19: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 16: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 16: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 12: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 12: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 18: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 18: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 17: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 17: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 8: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 8: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 14: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 14: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 21: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 21: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 23: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 23: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 7: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 11: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 7: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 11: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 5: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 22: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 22: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 5: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 3: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 20: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 3: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 2: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 24: El archivo fue descargado correctamente
+2019/10/16 12:09:22 Cliente 20: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 2: Tiempo de transferencia= 0.0
+2019/10/16 12:09:22 Cliente 24: Tiempo de transferencia= 0.0
+2019/10/16 12:10:37 
+-------------------------------------------------------
+2019/10/16 12:10:37 Se comenzara el servicio para 2 conexiones
+2019/10/16 12:10:42 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/16 12:10:42 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/16 12:10:42 Cliente 1: El cliente se encuentra preparado
+2019/10/16 12:10:42 Cliente 2: El cliente se encuentra preparado
+2019/10/16 12:10:42 Cliente 2: El tamanio del bloque es: 4096
+2019/10/16 12:10:42 Cliente 1: El tamanio del bloque es: 4096
+2019/10/16 12:11:56 
+-------------------------------------------------------
+2019/10/16 12:11:56 Se comenzara el servicio para 2 conexiones
+2019/10/16 12:12:19 
+-------------------------------------------------------
+2019/10/16 12:12:19 Se comenzara el servicio para 2 conexiones
+2019/10/16 12:12:22 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/16 12:12:22 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/16 12:12:22 Cliente 2: El cliente se encuentra preparado
+2019/10/16 12:12:22 Cliente 1: El cliente se encuentra preparado
+2019/10/16 12:12:22 Cliente 2: El tamanio del bloque es: 4096
+2019/10/16 12:12:22 Cliente 1: El tamanio del bloque es: 4096
+2019/10/16 12:12:35 Cliente 2: El archivo fue descargado correctamente
+2019/10/16 12:12:35 Cliente 2: Tiempo de transferencia= 10.0
+2019/10/16 12:12:35 Cliente 1: El archivo fue descargado correctamente
+2019/10/16 12:12:35 Cliente 1: Tiempo de transferencia= 10.0
+2019/10/16 12:15:48 
+-------------------------------------------------------
+2019/10/16 12:15:48 Se comenzara el servicio para 2 conexiones
+2019/10/16 12:16:16 
+-------------------------------------------------------
+2019/10/16 12:16:16 Se comenzara el servicio para 2 conexiones
+2019/10/16 12:16:19 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/16 12:16:19 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/16 12:16:19 Cliente 1: El cliente se encuentra preparado
+2019/10/16 12:16:19 Cliente 2: El cliente se encuentra preparado
+2019/10/16 12:16:19 Cliente 1: El tamanio del bloque es: 4096
+2019/10/16 12:16:19 Cliente 2: El tamanio del bloque es: 4096
+2019/10/16 12:16:41 Cliente 1: El archivo fue descargado correctamente
+2019/10/16 12:16:41 Cliente 1: Tiempo de transferencia= 19.0
+2019/10/16 12:16:41 Cliente 2: El archivo fue descargado correctamente
+2019/10/16 12:16:41 Cliente 2: Tiempo de transferencia= 19.0

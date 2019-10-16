@@ -9,10 +9,11 @@ public class MainCliente{
 		int puerto = Integer.parseInt(args[0]);
 		String ip = args[1];
 		int numConexiones = Integer.parseInt(args[2]);
+		String tipoArchivo = args[3];
 		
 		for(int i=0; i < numConexiones; i++)
 		{
-			ClienteUDP cliente = new ClienteUDP(puerto, ip);
+			ClienteUDP cliente = new ClienteUDP(puerto, ip, tipoArchivo);
 			cliente.start();
 		}
 	}
