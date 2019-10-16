@@ -1,102 +1,31 @@
 
-2019/10/15 19:14:56 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:14:58 Se agregó una conexión a la espera
-2019/10/15 19:14:58 Esperando 2+ conexiones
-2019/10/15 19:14:58 Se agregó una conexión a la espera
-2019/10/15 19:14:58 Esperando 1+ conexiones
-2019/10/15 19:14:58 Se agregó una conexión a la espera
-2019/10/15 19:14:58 Esperando 0+ conexiones
-2019/10/15 19:20:11 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:20:13 Se agregó una conexión a la espera
-2019/10/15 19:20:13 Esperando 2+ conexiones
-2019/10/15 19:20:13 Se agregó una conexión a la espera
-2019/10/15 19:20:13 Esperando 1+ conexiones
-2019/10/15 19:20:14 Se agregó una conexión a la espera
-2019/10/15 19:20:14 Esperando 0+ conexiones
-2019/10/15 19:20:58 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:21:00 Se agregó una conexión a la espera
-2019/10/15 19:21:00 Esperando 2+ conexiones
-2019/10/15 19:21:00 Se agregó una conexión a la espera
-2019/10/15 19:21:00 Esperando 1+ conexiones
-2019/10/15 19:21:00 Se agregó una conexión a la espera
-2019/10/15 19:21:00 Esperando 0+ conexiones
-2019/10/15 19:22:37 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:22:38 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:22:38 Se agregó una conexión a la espera
-2019/10/15 19:22:38 Esperando 2+ conexiones
-2019/10/15 19:22:38 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:22:38 Se agregó una conexión a la espera
-2019/10/15 19:22:38 Esperando 1+ conexiones
-2019/10/15 19:22:39 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:22:39 Se agregó una conexión a la espera
-2019/10/15 19:22:39 Esperando 0+ conexiones
-2019/10/15 19:23:10 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:23:12 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:23:12 Se agregó una conexión a la espera
-2019/10/15 19:23:12 Esperando 2+ conexiones
-2019/10/15 19:23:12 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:23:12 Se agregó una conexión a la espera
-2019/10/15 19:23:12 Esperando 1+ conexiones
-2019/10/15 19:23:12 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:23:12 Se agregó una conexión a la espera
-2019/10/15 19:23:12 Esperando 0+ conexiones
-2019/10/15 19:23:43 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:23:46 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:23:46 Se agregó una conexión a la espera
-2019/10/15 19:23:46 Esperando 2+ conexiones
-2019/10/15 19:23:46 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:23:46 Se agregó una conexión a la espera
-2019/10/15 19:23:46 Esperando 1+ conexiones
-2019/10/15 19:23:47 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:23:47 Se agregó una conexión a la espera
-2019/10/15 19:23:47 Esperando 0+ conexiones
-2019/10/15 19:25:54 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:25:57 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:25:57 Se agregó una conexión a la espera
-2019/10/15 19:25:57 Esperando 2+ conexiones
-2019/10/15 19:25:57 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:25:57 Se agregó una conexión a la espera
-2019/10/15 19:25:57 Esperando 1+ conexiones
-2019/10/15 19:25:57 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:25:57 Se agregó una conexión a la espera
-2019/10/15 19:25:57 Esperando 0+ conexiones
-2019/10/15 19:26:21 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:26:23 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:26:23 Se agregó una conexión a la espera
-2019/10/15 19:26:23 Esperando 2+ conexiones
-2019/10/15 19:26:23 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:26:23 Se agregó una conexión a la espera
-2019/10/15 19:26:23 Esperando 1+ conexiones
-2019/10/15 19:26:23 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:26:23 Se agregó una conexión a la espera
-2019/10/15 19:26:23 Esperando 0+ conexiones
-2019/10/15 19:26:45 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:26:48 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:26:48 Se agregó una conexión a la espera
-2019/10/15 19:26:48 Esperando 2+ conexiones
-2019/10/15 19:26:48 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:26:48 Se agregó una conexión a la espera
-2019/10/15 19:26:48 Esperando 1+ conexiones
-2019/10/15 19:26:49 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:26:49 Se agregó una conexión a la espera
-2019/10/15 19:26:49 Esperando 0+ conexiones
-2019/10/15 19:29:01 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:29:05 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:29:05 Se agregó una conexión a la espera
-2019/10/15 19:29:05 Esperando 2+ conexiones
-2019/10/15 19:29:05 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:29:05 Se agregó una conexión a la espera
-2019/10/15 19:29:05 Esperando 1+ conexiones
-2019/10/15 19:29:06 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:29:06 Se agregó una conexión a la espera
-2019/10/15 19:29:06 Esperando 0+ conexiones
-2019/10/15 19:39:44 Se comenzara el servicio para 3 conexiones
-2019/10/15 19:39:46 Cliente 1: Se desplego el servidor para: Cliente 1
-2019/10/15 19:39:46 Se agregó una conexión a la espera
-2019/10/15 19:39:46 Esperando 2+ conexiones
-2019/10/15 19:39:46 Cliente 2: Se desplego el servidor para: Cliente 2
-2019/10/15 19:39:46 Se agregó una conexión a la espera
-2019/10/15 19:39:46 Esperando 1+ conexiones
-2019/10/15 19:39:47 Cliente 3: Se desplego el servidor para: Cliente 3
-2019/10/15 19:39:47 Se agregó una conexión a la espera
-2019/10/15 19:39:47 Esperando 0+ conexiones
+2019/10/15 20:03:17 Se comenzara el servicio para 3 conexiones
+2019/10/15 20:03:19 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/15 20:03:19 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/15 20:03:20 Cliente 3: Se desplego el servidor para: Cliente 3
+2019/10/15 20:03:20 Cliente 1: El cliente se encuentra preparado
+2019/10/15 20:03:20 Cliente 3: El cliente se encuentra preparado
+2019/10/15 20:03:20 Cliente 2: El cliente se encuentra preparado
+2019/10/15 20:03:20 Cliente 3: El tamanio del bloque es: 4096
+2019/10/15 20:03:20 Cliente 1: El tamanio del bloque es: 4096
+2019/10/15 20:03:20 Cliente 2: El tamanio del bloque es: 4096
+2019/10/15 20:06:17 Se comenzara el servicio para 3 conexiones
+2019/10/15 20:06:20 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/15 20:06:20 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/15 20:06:21 Cliente 3: Se desplego el servidor para: Cliente 3
+2019/10/15 20:06:21 Cliente 3: El cliente se encuentra preparado
+2019/10/15 20:06:21 Cliente 2: El cliente se encuentra preparado
+2019/10/15 20:06:21 Cliente 1: El cliente se encuentra preparado
+2019/10/15 20:06:21 Cliente 3: El tamanio del bloque es: 4096
+2019/10/15 20:06:21 Cliente 1: El tamanio del bloque es: 4096
+2019/10/15 20:06:21 Cliente 2: El tamanio del bloque es: 4096
+2019/10/15 20:08:48 Se comenzara el servicio para 3 conexiones
+2019/10/15 20:08:51 Cliente 1: Se desplego el servidor para: Cliente 1
+2019/10/15 20:08:51 Cliente 2: Se desplego el servidor para: Cliente 2
+2019/10/15 20:08:52 Cliente 3: Se desplego el servidor para: Cliente 3
+2019/10/15 20:08:52 Cliente 1: El cliente se encuentra preparado
+2019/10/15 20:08:52 Cliente 3: El cliente se encuentra preparado
+2019/10/15 20:08:52 Cliente 1: El tamanio del bloque es: 4096
+2019/10/15 20:08:52 Cliente 3: El tamanio del bloque es: 4096
+2019/10/15 20:08:52 Cliente 2: El cliente se encuentra preparado
+2019/10/15 20:08:52 Cliente 2: El tamanio del bloque es: 4096

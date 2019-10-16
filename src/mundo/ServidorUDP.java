@@ -73,8 +73,8 @@ public class ServidorUDP
 					ServidorUDPThread thread = new ServidorUDPThread(socketCliente, nombreCliente);
 					threads[contadorConexiones] = thread;
 					contadorConexiones++;
-					logger.log("Se agregó una conexión a la espera", RUTA_LOG_SERVIDOR);
-					logger.log("Esperando " + (numeroConexiones-contadorConexiones) + "+ conexiones", RUTA_LOG_SERVIDOR);
+//					logger.log("Se agregó una conexión a la espera", RUTA_LOG_SERVIDOR);
+//					logger.log("Esperando " + (numeroConexiones-contadorConexiones) + "+ conexiones", RUTA_LOG_SERVIDOR);
 				}
 				//ya se llenaron las conexiones
 				else
