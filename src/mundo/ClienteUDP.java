@@ -33,7 +33,7 @@ public class ClienteUDP extends Thread
 	private String miRutaFinal;
 	private String tipoArchivo;
 
-	private static final String RUTA_LOG_CLIENTE = "./data/logs/cliente/log_cliente.txt";
+	private static final String RUTA_LOG_CLIENTE = "./data/logs/cliente/log_cliente";
 	private static final String RUTA_FINAL_ARCHIVO = "C:\\Users\\viejo\\Documents\\Universidad\\Redes\\RepoArchivos\\Descargado";
 
 	public ClienteUDP(int puerto, String ip, String tipoArchivo)
@@ -61,7 +61,14 @@ public class ClienteUDP extends Thread
 
 	private void log(String mensaje)
 	{
-		logger.log(mensaje, RUTA_LOG_CLIENTE);
+		if(nombreCliente != null)
+		{
+			logger.log(mensaje, RUTA_LOG_CLIENTE + "_" + nombreCliente + ".txt");
+		}
+		else
+		{
+			logger.log(mensaje, RUTA_LOG_CLIENTE + ".txt");
+		}
 	}
 
 	@Override
@@ -82,6 +89,7 @@ public class ClienteUDP extends Thread
 					{
 						nombreCliente = data.split(":")[1];
 						miRutaFinal = RUTA_FINAL_ARCHIVO + "_" + nombreCliente + "." + tipoArchivo;
+						log("--------------------------------------------------------\n");
 						log("Estado de la conexión exitoso");
 						log("Nombre asignado por el servidor: " + nombreCliente);
 						log("La ruta final del archivo es = " + miRutaFinal);
@@ -95,6 +103,7 @@ public class ClienteUDP extends Thread
 					{
 						tamanioArchivo = Integer.parseInt(data.split(":")[1]);
 						tFinal = descargarArchivo(socketCliente, tamanioArchivo);
+						log("El número de bloques es = " + (int)(tamanioArchivo/tamanioBloque));
 					}
 					if(data.contains(CHECKSUM))
 					{
@@ -102,10 +111,12 @@ public class ClienteUDP extends Thread
 						String elChecksum = data.split(":")[1];
 						if(miChecksum.equals(elChecksum))
 						{
+							log("El archivo se descargó correctamente");
 							out.println(CORRECTO + tFinal);
 						}
 						else
 						{
+							log("El archivo NO se descargó correctamente");
 							out.println(INCORRECTO + tFinal);
 						}
 						corriendo = false;
